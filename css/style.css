@@ -1,0 +1,250 @@
+
+#footer {
+    background-color: #4CAF50;
+    height: 12%;
+}
+.body {
+  height:100%;
+}
+.mdl-mini-footer__link-list {
+    color: white;
+}
+
+.mdl-layout__drawer-button {
+    margin-top: 20px;
+    margin-left: 8px;
+}
+
+
+#map {
+    height: 100%;
+}    
+
+.img {
+    
+    border-radius: 8px;
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+
+.img1 {
+    position: relative;
+    left: 20%;
+    bottom: 70%;
+    max-width: 300px;
+    border: 3px solid #73AD21;
+}
+.img2 {
+    position: relative;
+    left: 65%;
+    top: 20%;
+    max-width: 300px;
+    border: 3px solid #73AD21;
+}
+.img3 {
+    position: relative;
+    left: 20%;
+    top: 30%;
+    max-width: 300px;
+    border: 3px solid #73AD21;
+}
+.img4 {
+    position: relative;
+    left: 65%;
+    top: 30%;
+    max-width: 300px;
+    border: 3px solid #73AD21;
+}
+.image{
+    position: absolute;
+    top: 200px;
+}
+/* Info Window */
+.infowindow-title {
+    font-style:normal;
+    font-size: 20px;
+    margin: 0px;
+    color: #73AD21;
+  }
+  
+  .infowindow-separator {
+    margin-top: 10px;
+    margin-left:250px;
+    width: 100%;
+  }
+  
+  .infowindow-button {
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    padding: 5px 10px;
+    margin-right: 5px;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif !important;
+    background: #73AD21;
+    color: #fff;
+  }
+  .infowindow-gogreen {
+    background: #73AD21;
+    color: rgb(255, 255, 255);
+  }
+  
+/* Postcode box */  
+  #info-box {
+    background-color: white;
+    border-radius: 4px;
+    border: 2px solid #73AD21;
+    height: 45px;
+    padding: 10px;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+  }
+
+  /* Legenda box */  
+   #legenda {
+    background-color: white;
+    border-radius: 4px;
+    border: 2px solid #73AD21;
+    height: 370px;
+    padding: 20px;
+    position: absolute;
+    right: 50px;
+    top: 150px;
+  }
+
+  #color_box_wrapper{
+    display: table;
+  }
+  
+  #color_box, #color_text{
+    display: inline-block;
+    margin: 0;
+  }
+  
+  #color_text{
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  .green{
+    height: 40px;
+    width: 50px;
+    background-color: #008000; 
+  }
+  
+  .yellow {
+    height: 40px;
+    width: 50px;
+    background-color: #C7FF00;
+  }
+  
+  .orange {
+    height: 40px;
+    width: 50px;
+    background-color: #FF7E00;
+  }
+  
+  .orange2 {
+    height: 40px;
+    width: 50px;
+    background-color: #FF410B;
+  }
+
+  .red {
+    height: 40px;
+    width: 50px;
+    background-color:  #FF0000;
+  }
+  
+/* Search Bar */
+  #pac-input {
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    margin-top: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 300px;
+  }
+
+  #pac-input:focus {
+    border-color: #73AD21;
+  }
+
+/* Toggle Switches */
+.switchContainer {
+    font-family: 'Montserrat', sans-serif !important;
+    position: absolute;
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+    right: 50px;
+    top: 105px;
+    background-color: white;
+    border-radius: 4px;
+    border: 2px solid #73AD21;
+  }
+  .switchContainer2 {
+    font-family: 'Montserrat', sans-serif !important;
+    position: absolute;
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+    right: 50px;
+    top: 150px;
+    background-color: white;
+    border-radius: 4px;
+    border: 2px solid #73AD21;
+  }
+  
+  .switch {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: #73AD21;
+    transition: all 0.15s ease;
+    left: 0;
+    z-index: 1;
+  }
+  
+  .switchContainer.off {
+  
+    border: 2px solid #e74c3c;
+  }
+  
+  .switchContainer.off .switch {
+    left: 50%;
+    background-color: #e74c3c;
+  }
+
+  .switchContainer2.off {
+    
+      border: 2px solid #e74c3c;
+    }
+    
+    .switchContainer2.off .switch {
+      left: 50%;
+      background-color: #e74c3c;
+    }
+  
+  
+  .lblSwitch {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding-top: 5px;
+  }
+  
+  .lblSwitch.right {
+    left: 50%;
+  }

@@ -1,0 +1,494 @@
+﻿[
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1045,
+   "gm3": 23063,
+   "tavo": 22
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1044,
+   "gm3": -2147483644,
+   "tavo": 3
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1047,
+   "gm3": 90518,
+   "tavo": 17
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1043,
+   "gm3": 46713,
+   "tavo": 42
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1028,
+   "gm3": 282654,
+   "tavo": 119
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1026,
+   "gm3": 196345,
+   "tavo": 92
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1023,
+   "gm3": 2323459,
+   "tavo": 1827
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1095,
+   "gm3": 3745236,
+   "tavo": 4117
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1027,
+   "gm3": 186027,
+   "tavo": 94
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1025,
+   "gm3": 3844459,
+   "tavo": 5420
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1034,
+   "gm3": 4483410,
+   "tavo": 4493
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1022,
+   "gm3": 1308423,
+   "tavo": 1038
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1024,
+   "gm3": 3938698,
+   "tavo": 4040
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1033,
+   "gm3": 5159711,
+   "tavo": 4783
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1035,
+   "gm3": 4402803,
+   "tavo": 3506
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1037,
+   "gm3": 93717,
+   "tavo": 57
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1041,
+   "gm3": 49850,
+   "tavo": 12
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1042,
+   "gm3": 84362,
+   "tavo": 67
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1036,
+   "gm3": 243250,
+   "tavo": 251
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1031,
+   "gm3": 2624065,
+   "tavo": 2307
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1032,
+   "gm3": 2730331,
+   "tavo": 2217
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1019,
+   "gm3": 3077770,
+   "tavo": 4099
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1021,
+   "gm3": 3343730,
+   "tavo": 3131
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1012,
+   "gm3": 5229266,
+   "tavo": 3779
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1011,
+   "gm3": 4307311,
+   "tavo": 3845
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1092,
+   "gm3": 3742953,
+   "tavo": 3685
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1093,
+   "gm3": 4026089,
+   "tavo": 4339
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1094,
+   "gm3": 5018419,
+   "tavo": 5544
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1098,
+   "gm3": 4993049,
+   "tavo": 4107
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1097,
+   "gm3": 6113970,
+   "tavo": 5852
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1091,
+   "gm3": 6312917,
+   "tavo": 6927
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1018,
+   "gm3": 8823096,
+   "tavo": 8763
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1017,
+   "gm3": 7795747,
+   "tavo": 5451
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1078,
+   "gm3": 6753218,
+   "tavo": 5921
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1072,
+   "gm3": 6155486,
+   "tavo": 6579
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1073,
+   "gm3": 6138587,
+   "tavo": 6249
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1074,
+   "gm3": 3920420,
+   "tavo": 3734
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1071,
+   "gm3": 7541843,
+   "tavo": 4571
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1053,
+   "gm3": 7257011,
+   "tavo": 7888
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1054,
+   "gm3": 7615351,
+   "tavo": 6917
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1016,
+   "gm3": 6448064,
+   "tavo": 5333
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1052,
+   "gm3": 5062070,
+   "tavo": 5606
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1015,
+   "gm3": 7781471,
+   "tavo": 6889
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1013,
+   "gm3": 8270380,
+   "tavo": 8415
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1051,
+   "gm3": 4423055,
+   "tavo": 6046
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1055,
+   "gm3": 7526015,
+   "tavo": 8224
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1057,
+   "gm3": 6766680,
+   "tavo": 7464
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1056,
+   "gm3": 7653887,
+   "tavo": 7965
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1014,
+   "gm3": 147437,
+   "tavo": 71
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1067,
+   "gm3": 5511810,
+   "tavo": 5033
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1046,
+   "gm3": 341546,
+   "tavo": 207
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1064,
+   "gm3": 5569875,
+   "tavo": 5945
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1063,
+   "gm3": 5120236,
+   "tavo": 4787
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1061,
+   "gm3": 2589356,
+   "tavo": 2525
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1065,
+   "gm3": 4294428,
+   "tavo": 4165
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1062,
+   "gm3": 1697487,
+   "tavo": 2290
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1058,
+   "gm3": 6005784,
+   "tavo": 6144
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1076,
+   "gm3": 4002175,
+   "tavo": 4075
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1077,
+   "gm3": 4091182,
+   "tavo": 2664
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1075,
+   "gm3": 5476992,
+   "tavo": 4081
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1059,
+   "gm3": 2633489,
+   "tavo": 2585
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1066,
+   "gm3": 6173855,
+   "tavo": 5310
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1068,
+   "gm3": 4662011,
+   "tavo": 6045
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1069,
+   "gm3": 6674506,
+   "tavo": 7793
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1060,
+   "gm3": 2546123,
+   "tavo": 2313
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1081,
+   "gm3": 1716051,
+   "tavo": 1821
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1083,
+   "gm3": 2320660,
+   "tavo": 2783
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1079,
+   "gm3": 6527937,
+   "tavo": 6457
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1082,
+   "gm3": 3279540,
+   "tavo": 4227
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1096,
+   "gm3": 217512,
+   "tavo": 100
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1114,
+   "gm3": 57985,
+   "tavo": 25
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1101,
+   "gm3": 127480,
+   "tavo": 59
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1102,
+   "gm3": 4997078,
+   "tavo": 7408
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1104,
+   "gm3": 3172627,
+   "tavo": 3893
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1108,
+   "gm3": 1716369,
+   "tavo": 1424
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1109,
+   "gm3": 661529,
+   "tavo": 500
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1103,
+   "gm3": 1266012,
+   "tavo": 3031
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1107,
+   "gm3": 5008992,
+   "tavo": 4530
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1106,
+   "gm3": 8224404,
+   "tavo": 6648
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1105,
+   "gm3": 39942,
+   "tavo": 18
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1086,
+   "gm3": 81518,
+   "tavo": 60
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1087,
+   "gm3": -2147483645,
+   "tavo": 0
+ }
+]

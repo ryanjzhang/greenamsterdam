@@ -1,0 +1,494 @@
+﻿[
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1045,
+   "kWh": 109748,
+   "tavo": 31
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1044,
+   "kWh": -2147483644,
+   "tavo": 3
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1047,
+   "kWh": 295853,
+   "tavo": 70
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1043,
+   "kWh": 256065,
+   "tavo": 63
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1028,
+   "kWh": 593709,
+   "tavo": 139
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1026,
+   "kWh": 550184,
+   "tavo": 113
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1023,
+   "kWh": 4389573,
+   "tavo": 1865
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1095,
+   "kWh": 11685636,
+   "tavo": 5041
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1027,
+   "kWh": 430496,
+   "tavo": 109
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1025,
+   "kWh": 13551857,
+   "tavo": 6029
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1034,
+   "kWh": 13391623,
+   "tavo": 5493
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1022,
+   "kWh": 3619124,
+   "tavo": 1163
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1024,
+   "kWh": 12171795,
+   "tavo": 4749
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1033,
+   "kWh": 13325763,
+   "tavo": 4908
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1035,
+   "kWh": 10092938,
+   "tavo": 3551
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1037,
+   "kWh": 203582,
+   "tavo": 61
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1041,
+   "kWh": 103450,
+   "tavo": 23
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1042,
+   "kWh": 413740,
+   "tavo": 70
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1036,
+   "kWh": 1537794,
+   "tavo": 478
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1031,
+   "kWh": 7145202,
+   "tavo": 2676
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1032,
+   "kWh": 6989927,
+   "tavo": 2531
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1019,
+   "kWh": 19268861,
+   "tavo": 6814
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1021,
+   "kWh": 7119956,
+   "tavo": 3158
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1012,
+   "kWh": 14811638,
+   "tavo": 4237
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1011,
+   "kWh": 11032941,
+   "tavo": 4518
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1092,
+   "kWh": 7864317,
+   "tavo": 3833
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1093,
+   "kWh": 9902533,
+   "tavo": 4640
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1094,
+   "kWh": 11973744,
+   "tavo": 5658
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1098,
+   "kWh": 13079789,
+   "tavo": 4859
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1097,
+   "kWh": 12528345,
+   "tavo": 6228
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1091,
+   "kWh": 14623596,
+   "tavo": 7261
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1018,
+   "kWh": 21854691,
+   "tavo": 9027
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1017,
+   "kWh": 18722224,
+   "tavo": 5945
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1078,
+   "kWh": 14845387,
+   "tavo": 6146
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1072,
+   "kWh": 15168898,
+   "tavo": 6928
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1073,
+   "kWh": 13407477,
+   "tavo": 6553
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1074,
+   "kWh": 8064040,
+   "tavo": 3946
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1071,
+   "kWh": 16734689,
+   "tavo": 4793
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1053,
+   "kWh": 16915480,
+   "tavo": 8123
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1054,
+   "kWh": 17115867,
+   "tavo": 7217
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1016,
+   "kWh": 15406442,
+   "tavo": 5856
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1052,
+   "kWh": 11496909,
+   "tavo": 5796
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1015,
+   "kWh": 16654022,
+   "tavo": 7329
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1013,
+   "kWh": 22335143,
+   "tavo": 9796
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1051,
+   "kWh": 11984319,
+   "tavo": 6308
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1055,
+   "kWh": 17591512,
+   "tavo": 9223
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1057,
+   "kWh": 15573800,
+   "tavo": 7906
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1056,
+   "kWh": 15921995,
+   "tavo": 8381
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1014,
+   "kWh": 1193574,
+   "tavo": 140
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1067,
+   "kWh": 16778389,
+   "tavo": 6402
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1046,
+   "kWh": 1372725,
+   "tavo": 229
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1064,
+   "kWh": 13607059,
+   "tavo": 6612
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1063,
+   "kWh": 10932385,
+   "tavo": 5094
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1061,
+   "kWh": 11373189,
+   "tavo": 4672
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1065,
+   "kWh": 10112341,
+   "tavo": 4607
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1062,
+   "kWh": 9986670,
+   "tavo": 4133
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1058,
+   "kWh": 14704815,
+   "tavo": 6898
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1076,
+   "kWh": 11997213,
+   "tavo": 5093
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1077,
+   "kWh": 11207151,
+   "tavo": 3024
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1075,
+   "kWh": 11477150,
+   "tavo": 4262
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1059,
+   "kWh": 5620830,
+   "tavo": 2672
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1066,
+   "kWh": 17612126,
+   "tavo": 6023
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1068,
+   "kWh": 16565339,
+   "tavo": 7104
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1069,
+   "kWh": 24122078,
+   "tavo": 9223
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1060,
+   "kWh": 9955316,
+   "tavo": 2971
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1081,
+   "kWh": 5706909,
+   "tavo": 2509
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1083,
+   "kWh": 7364549,
+   "tavo": 3302
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1079,
+   "kWh": 14343268,
+   "tavo": 6886
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1082,
+   "kWh": 14127791,
+   "tavo": 5828
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1096,
+   "kWh": 4211024,
+   "tavo": 1439
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1114,
+   "kWh": 150445,
+   "tavo": 29
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1101,
+   "kWh": 617819,
+   "tavo": 80
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1102,
+   "kWh": 21296973,
+   "tavo": 8546
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1104,
+   "kWh": 13362478,
+   "tavo": 4964
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1108,
+   "kWh": 2979817,
+   "tavo": 1437
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1109,
+   "kWh": 1586355,
+   "tavo": 515
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1103,
+   "kWh": 14285404,
+   "tavo": 5069
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1107,
+   "kWh": 11473872,
+   "tavo": 4560
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1106,
+   "kWh": 17406684,
+   "tavo": 6679
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1105,
+   "kWh": 185185,
+   "tavo": 29
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1086,
+   "kWh": 3742446,
+   "tavo": 1084
+ },
+ {
+   "Gemeente": "Amsterdam",
+   "postcode": 1087,
+   "kWh": 19635739,
+   "tavo": 5560
+ }
+]

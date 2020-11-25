@@ -1,0 +1,375 @@
+<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" />
+    <link href="css/template.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+
+<body>
+    <div class="mdl-layout mdl-js-layout" id="top">
+        <!-- HEADER -->
+        <header>
+            <div id="wrapper">
+                <div id="header" class="container">
+                    <div id="logo">
+                        <h1 id="h1header">
+                            <a href="index.html">Green Amsterdam</a>
+                        </h1>
+                    </div>
+                    <div id="menu">
+                        <ul>
+                            <li>
+                                <a href="index.html" accesskey="1" title="">Home</a>
+                            </li>
+                            <li class="current_page_item">
+                                <a href="dashboard.html" accesskey="2" title="">Dashboard</a>
+                            </li>
+                            <li>
+                                <a href="tips.html" accesskey="3" title="">Tips to go green</a>
+                            </li>
+                            <li>
+                                <a href="#" accesskey="4" title="">About us </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- DRAWER -->
+        <div class="mdl-layout__drawer">
+            <br>
+            <span>
+                <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Informatie voor postcode</b>
+            </span>
+            <br>
+            <center>Volgens de data gebruik je meer/minder gas dan gemiddeld.
+                <br>
+                <br> Hier heb je een paar tips die jouw energieverbruik kunnen minderen</p>
+            </center>
+            <br>
+            <br>
+            <center>
+                <b>Tip 1</b>
+            </center>
+            <br>
+            <center>Momenteel verbruik je 800kwh per jaar.
+                <br>Isoleer het dak, hiermee verbruik je 77kwh minder per jaar</center>
+            <br>
+            <br>
+
+
+        </div>
+
+        <!-- CONTENT -->
+        <main class="mdl-layout__content">
+            <div class="body">
+
+                <div id="map"></div>
+                <div id="info-box">Hover over dashboard</div>
+                <div id="legenda">
+                    <p>
+                        <b>Legenda</b>
+                        <p>Gas verbruik per
+                            <br>gemiddelde inwoner
+                            <br>in kubieke meter</p>
+                    </p>
+
+                    <div id="color_box_wrapper">
+                        <div id="color_box" class="green"></div>
+                        <p id="color_text">&nbsp; 1 - 180</p>
+                    </div>
+                    <div id="color_box_wrapper">
+                        <div id="color_box" class="yellow"></div>
+                        <p id="color_text">&nbsp; 180 - 350</p>
+                    </div>
+                    <div id="color_box_wrapper">
+                        <div id="color_box" class="orange"></div>
+                        <p id="color_text">&nbsp; 350 - 500</p>
+                    </div>
+                    <div id="color_box_wrapper">
+                        <div id="color_box" class="orange2"></div>
+                        <p id="color_text">&nbsp; 500 - 780</p>
+                    </div>
+                    <div id="color_box_wrapper">
+                        <div id="color_box" class="red"></div>
+                        <p id="color_text">&nbsp; 780 - max</p>
+                    </div>
+                </div>
+
+                <!-- Gas Switch -->
+                <!-- <div class="switchContainer" id="switchContainer" onclick="gasClick(this)">
+                        <div class="switch" id="switch">
+                        </div>
+                        <div class="lblSwitch left">
+                            Gas
+                        </div>
+                        <div class="lblSwitch right">
+                            Gas
+                        </div>
+                    </div>
+                    <div class="switchContainer2" id="switchContainer2" onclick="stroomClick(this)">
+                        <div class="switch" id="switch">
+                        </div>
+                        <div class="lblSwitch left">
+                            Stroom
+                        </div>
+                        <div class="lblSwitch right">
+                            Stroom
+                        </div>
+                    </div> -->
+                <script>
+                    function gasClick(event) {
+                        if (event.classList.contains('off')) {
+                            event.classList.remove('off');
+                        } else {
+                            event.classList.add('off');
+                        }
+                    }
+                    function stroomClick(event) {
+                        if (event.classList.contains('off')) {
+                            event.classList.remove('off');
+                        } else {
+                            event.classList.add('off');
+                        }
+                    }
+                </script>
+
+
+
+                <!-- MAP -->
+                <input id="pac-input" class="controls" type="text" placeholder="Voer gebied in..">
+                <script>
+                    var map;
+                    function initMap() {
+                        // Maakt de map aan
+                        map = new google.maps.Map(document.getElementById('map'), {
+                            center: { lat: 52.337720, lng: 4.895168 },
+                            zoom: 12,
+                            minZoom: 11,
+                            streetViewControl: false,
+                            zoomControl: false, // laad buttons voor zoomen rechts beneden
+                            fullscreenControl: false,
+                        });
+
+                        // SEARCH BOX -----------------------------------------
+
+                        // Create the search box and link it to the UI element
+                        var input = document.getElementById('pac-input');
+                        var searchBox = new google.maps.places.SearchBox(input);
+                        map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
+
+                        // Bias the SearchBox results towards current map's viewport.
+                        map.addListener('bounds_changed', function () {
+                            searchBox.setBounds(map.getBounds());
+                        });
+
+                        var markers = [];
+                        // Listen for the event fired when the user selects a prediction and retrieve
+                        // more details for that place.
+                        searchBox.addListener('places_changed', function () {
+                            var places = searchBox.getPlaces();
+
+                            if (places.length == 0) {
+                                return;
+                            }
+
+                            // Clear out the old markers.
+                            markers.forEach(function (marker) {
+                                marker.setMap(null);
+                            });
+                            markers = [];
+
+                            // For each place, get the icon, name and location.
+                            var bounds = new google.maps.LatLngBounds();
+                            places.forEach(function (place) {
+                                if (!place.geometry) {
+                                    console.log("Returned place contains no geometry");
+                                    return;
+                                }
+                                var icon = {
+                                    url: place.icon,
+                                    size: new google.maps.Size(71, 71),
+                                    origin: new google.maps.Point(0, 0),
+                                    anchor: new google.maps.Point(17, 34),
+                                    scaledSize: new google.maps.Size(25, 25)
+                                };
+
+                                // Create a marker for each place.
+                                markers.push(new google.maps.Marker({
+                                    map: map,
+                                    icon: icon,
+                                    title: place.name,
+                                    position: place.geometry.location
+                                }));
+
+                                if (place.geometry.viewport) {
+                                    // Only geocodes have viewport.
+                                    bounds.union(place.geometry.viewport);
+                                } else {
+                                    bounds.extend(place.geometry.location);
+                                }
+                            });
+                            map.fitBounds(bounds);
+                        });
+                        // SEARCH BOX -----------------------------------------
+
+
+                        // Limiet voor map van de gebruiker
+                        var allowedBounds = new google.maps.LatLngBounds(
+                            new google.maps.LatLng(52.269978, 4.710819), //Type the southwest corner of your desired extent/bounds here
+                            new google.maps.LatLng(52.424713, 5.013319)   //Type the northeast corner of your desired extent/bounds here
+                        );
+
+                        var lastValidCenter = map.getCenter(); //This is just a variable that collects the center of the map each time you stop dragging the map with the mouse
+                        google.maps.event.addListener(map, 'center_changed', function () {
+                            if (allowedBounds.contains(map.getCenter())) {
+
+                                // i.e., if when you let go of the mouse, your map center is still within valid bounds you set above, save this position as the last valid center
+                                lastValidCenter = map.getCenter();
+                                return;
+                            }
+
+                            // on the hand, if the center is no longer within your allowed bounds, then return it to the last valid position
+                            map.panTo(lastValidCenter);
+                        });
+
+                        var O = 'amsterdam_outline.json';
+                        var OPC4 = 'amsterdam_outline_PC4.json';
+                        var OPC6 = 'amsteram_outline_PC6.json';
+                        var gas = 'gas.json';
+
+
+                        // NOTE: This uses cross-domain XHR, and may not work on older browsers.
+                        // Laad en weergeeft GeoJson bestand
+                        map.data.loadGeoJson('amsterdam_outline_PC4.json');
+
+                        // Uiterlijk van de polygon
+                        map.data.setStyle(function (feature) {
+                            var color = 'green';
+                            if (feature.getProperty('gm3') / feature.getProperty('populatie') >= "1" && feature.getProperty('gm3') / feature.getProperty('populatie') < "180") {
+                                color = '#008000';
+                            } else if (feature.getProperty('gm3') / feature.getProperty('populatie') >= "180" && feature.getProperty('gm3') / feature.getProperty('populatie') < "350") {
+                                color = '#fff820';
+                            } else if (feature.getProperty('gm3') / feature.getProperty('populatie') >= "350" && feature.getProperty('gm3') / feature.getProperty('populatie') < "500") {
+                                color = '#FF7E00';
+                            } else if (feature.getProperty('gm3') / feature.getProperty('populatie') >= "500" && feature.getProperty('gm3') / feature.getProperty('populatie') < "780") {
+                                color = '#FF410B';
+                            } else if (feature.getProperty('gm3') / feature.getProperty('populatie') >= "780" && feature.getProperty('gm3') / feature.getProperty('populatie') < "9000001") {
+                                color = '#FF0000';
+                            }
+                            return /** @type {google.maps.Data.StyleOptions} */({
+                                fillColor: color,
+                                strokeColor: color,
+                                strokeWeight: 2
+                            });
+                        });
+
+                        // Maakt outline dikker wanneer je met je muis over area hovert
+                        map.data.addListener('mouseover', function (event) {
+                            map.data.revertStyle();
+                            map.data.overrideStyle(event.feature, { strokeWeight: 4 });
+                            map.data.overrideStyle(event.feature, { fillOpacity: 0.6 });
+
+                        });
+                        map.data.addListener('mouseout', function (event) {
+                            map.data.revertStyle();
+                        });
+
+
+                        // Set mouseover event for each feature.
+                        map.data.addListener('mouseover', function (event) {
+                            document.getElementById('info-box').textContent =
+                                'Postcode: ' + event.feature.getProperty('Postcode4')
+                        })
+
+                        map.addListener('zoom_changed', function (event) {
+
+                            map.data.forEach(function (feature) {
+                                map.data.remove(feature);
+                            });
+
+                            if (map.getZoom() < 12) {
+                                map.data.loadGeoJson('amsterdam_outline_PC4.json');
+                                map.setMap();
+                            } else {
+                                map.data.loadGeoJson('amsterdam_outline_PC4.json');
+                            }
+                        });
+
+                        var infoWindow = new google.maps.InfoWindow({
+                            content: ""
+                        });
+
+                        map.data.addListener('click', function (event) {
+                            infoWindow.setContent('<h2 class="infowindow-title"> Regio Info </h2> ' +
+                                '<p> <b>Postcode:</b> ' + event.feature.getProperty('Postcode4')
+                                + '<br><b>Het gemiddelde elektriciteitverbruik van deze regio is:</b><br> ' + Math.round(event.feature.getProperty('kWh') /
+                                    event.feature.getProperty('populatie')) + ' kWh per persoon per jaar.'
+                                + '<br><b>Het gemiddelde gasverbruik van deze regio is:</b><br>' + Math.round(event.feature.getProperty('gm3') /
+                                    event.feature.getProperty('populatie')) + 'm3 per persoon per jaar. </p>' +
+                                ' <span class="infowindow-separator">' +
+                                
+                                ' </span>');
+
+                            var anchor = new google.maps.MVCObject();
+                            anchor.setValues({ //position of the point
+                                position: event.latLng,
+                            });
+                            infoWindow.open(map, anchor);
+                        });
+
+                        map.data.addListener('dblclick', function (event) {
+
+                            infoWindow.close();
+                        });
+
+                    }
+
+                </script>
+
+
+
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOvEwK28k48UrTYlMtbwn9aOGl_lqAkQA&libraries=places&callback=initMap"
+                    async defer></script>
+            </div>
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="mdl-mini-footer" id="footer">
+            <div class="mdl-mini-footer__left-section">
+                <div class="mdl-logo">
+                    More Information
+                </div>
+                <ul class="mdl-mini-footer__link-list">
+                    <li>
+                        <a href="#">Help</a>
+                    </li>
+                    <li>
+                        <a href="#">Privacy and Terms</a>
+                    </li>
+                    <li>
+                        <a href="#">User Agreement</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mdl-mini-footer__right-section">
+                <!-- <button class="mdl-mini-footer__social-btn"></button>
+            <button class="mdl-mini-footer__social-btn"></button>
+            <button class="mdl-mini-footer__social-btn"></button> -->
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

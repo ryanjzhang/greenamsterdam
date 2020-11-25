@@ -1,0 +1,88 @@
+{
+    "Tips": {
+        "Verwarming": [
+            {
+                "tip":"1. Zet de verwarming uit in de ruimtes die je niet gebruikt. Kijk uit voor bevriezing als het erg koud is. De radiatoren kunt u licht aan laten staan als het buiten vriest, om de bevriezing te voorkomen."
+            },
+            {
+                "tip":"2. Houd kamerdeuren niet al te lang open. Als u efficiënt de ruimtes in uw huis verwarmt, zorg er dan voor dat uw deuren dicht zijn of niet te lang open staan. Er gaat namelijk warmte verloren als er een deur open staat. Sluit uw deuren dus zo snel mogelijk."
+                
+            },
+                        {
+                "tip":"3. Raak gewend aan een iets lagere temperatuur in huis en zet de verwarming lager. Als u vanaf nu de verwarming ietsjes lager zet, zal dit voor u in het begin even wennen zijn. Maar het lichaam zal zich hier snel op aanpassen en bent u gewend aan de nieuwe temperatuur. Als u de verwarming altijd één graad lager zet, scheelt dit al zo’n 6 tot 8% op de jaarlijkse verwarmingskosten."
+                
+            },
+                        {
+                "tip":"4. Draag sloffen in huis.Door warme sloffen te dragen in huis heeft u minder snel last van de kou. Hierdoor hoeft u de verwarming minder hoog te zetten."
+                
+            },
+                        {
+                "tip":"5. Leg dekens op de bank.Door met dekens op de bank te zitten of liggen krijgt u het minder snel koud en kunt u de verwarming minder hoog zetten."
+                
+            },
+                        {
+                "tip":"6.  Zet de verwarming ‘s nachts uit, of heel laag. Als u ‘s nachts onder een warme deken ligt, is het niet nodig om de verwarming aan te hebben in huis. Het is beter als u deze uit zet of op een lage stand. "
+                
+            },
+                        {
+                "tip":"7.  Zet de verwarming uit als je niet thuis bent.Als u niet thuis bent is het beter dat u de verwarming uitzet. Anders is het zonde van de energie!"
+                
+            },
+                        {
+                "tip":"8. Gebruik een modulerende thermostaat.Een modulerende thermostaat zorgt ervoor dat de thermostaat niet op volle toeren draait als er een flink temperatuurverschil moet worden overbrugd. Als de thermostaat op volle toeren draait is deze qua energieverbruik stukken minder efficiënt. Met een modulerende thermostaat kun je flink wat energie besparen."
+                
+            },
+                        {
+                "tip":"9. Zet de CV-pomp zo laag mogelijk. Het is vaak niet nodig om de CV-pomp op hoge snelheid te laten werken als niet alle radiatoren in huis aanstaan. U kunt uitzoeken wat de laagste stand is waarbij de verwarming nog voldoende goed werkt om energie te besparen."
+                
+            },
+                        {
+                "tip":"10. Koop een ketel op maat. Er zijn veel verschillende ketels. Er kunnen grote verschillen zitten in het vermogen van diverse modellen. U kunt het best voor een ketel kiezen die niet meer vermogen heeft dan nodig is om het huis te verwarmen. Een ketel die meer vermogen heeft dan dat nodig is, verbruikt meer onnodige energie."
+                
+            },
+                        {
+                "tip":"11. Gebruik geen open haard. Een open haard ziet er gezellig uit, maar door een open haard verloopt ook veel warmte. U kunt de luchtafvoer goed afsluiten om de warmte binnenshuis te houden wanneer u de open haard niet gebruikt."
+                
+            },
+
+                        {
+                "tip":"12. Maak zo min mogelijk gebruik van elektrische kachels.Als u een elektrische kachel heeft, gebruik deze dan zo min mogelijk. Elektrische kachels verwarmen een stuk minder efficiënt qua energieverbruik dan een reguliere verwarming."
+                
+            }
+
+        ],
+        "Isolatie": [
+            {
+                "tip":"1. Maak zoveel mogelijk gebruik van dubbel glas. Dubbelglas isoleert veel beter dan enkel glas. Dubbelglas kost dan wel een stuk meer dan enkel glas, maar er wordt dan wel veel bespaart op energie als u hier gebruik van maakt."
+            },            
+            {
+                "tip":"2. Sluit de gordijnen.Als u uw gordijnen sluit in huis wordt de warmte in huis beter geïsoleerd."
+            },            
+            {
+                "tip":"3. Isoleer het dak.Warme lucht stijgt omhoog. Door het dak goed te isoleren zult u  aanzienlijk minder hoeven te stoken, doordat er veel minder warmte verloren gaat."
+            },            
+            {
+                "tip":"4. Gebruik radiatorfolie.Veel warmte wordt in de muur opgenomen als deze tegen de muur staat. Door gebruik te maken van radiatorfolie achter de radiator wordt de warmte weerkaatst en niet in de muur opgenomen."
+            },            
+            {
+                "tip":"5. Gebruik rolluiken.Door rolluiken te gebruiken kunt u een huis een stuk beter isoleren. Warmteverlies door de ramen wordt hierdoor aanzienlijk minder."
+            },            
+            {
+                "tip":"6. Isoleer leidingen van de centrale verwarming.U kunt uw leidingen met speciaal isolatiemateriaal isoleren om zo warmteverlies tegen te gaan. En zo energieverbruik van de verwarming te besparen."
+            },
+            {
+                "tip":"7. Gebruik tochtstrips.Door gebruik te maken van tochtstrips kunt u voorkomen dat er veel warmte verloren gaat bij de kieren van ramen of deuren."
+            }
+        ],
+        "electriciteitsverbruik": [
+            {
+                "tip":""
+            }
+        ],
+        "Waterverbruik":[
+            {
+                "tip":""
+            }
+        ]
+    }
+}
